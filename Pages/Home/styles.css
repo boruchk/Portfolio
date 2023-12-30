@@ -43,6 +43,15 @@ a:hover {
     text-decoration: underline;
 }
 
+dt {
+    line-height: 2;
+}
+
+dd {
+    line-height: 1.3;
+    padding-bottom: 1%;
+}
+
 .centered {
     text-align: center;
 }
@@ -53,4 +62,9 @@ a:hover {
 
 .italic-text {
     font-style: italic;
+}
+
+.job-time {
+    font-style: italic;
+    font-size: medium;
 }
