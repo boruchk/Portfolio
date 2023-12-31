@@ -1,28 +1,22 @@
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Arial', sans-serif, 'cursive';
     margin: 0;
     padding: 0;
-    background-color: #7c75df;
+    background-color: #3b47f0;
 }
 
 header {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 1em;
+    border-radius: 15px;
+    margin-right: 50px;
 }
 
 section {
-    max-width: 800px;
     margin: 20px auto;
     padding: 20px;
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border-radius: 5px;
-}
-
-h1 {
-    color: #94e77b;
+    border-radius: 15px;
+    margin-right: 50px;
 }
 
 h2, h3 {
@@ -64,7 +58,34 @@ dd {
     font-style: italic;
 }
 
+.header-box {
+    background-color: #333;
+    color: #35d34a;
+    text-align: center;
+    padding: 1em;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.titles {
+    margin-left: 25px;
+}
+
 .job-time {
     font-style: italic;
     font-size: medium;
+}
+
+.info-box {
+    width: calc(100% - 700px); 
+    height: 100vh;
+    margin-top: 25px;
+}
+
+.project-box {
+    width: 450px;
+    height: 100vh;
+    margin: 25px;
+    margin-left: 50px;
+    float: left;
 }
