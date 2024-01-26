@@ -1,14 +1,13 @@
 import Head from 'next/head';
-import Link from 'next/link';
 import Layout from 'C:/Users/Boruch/github/Portfolio/nextjs-blog/components/layout.js';
 
-export default function Projects() {
+export default function Handyman() {
   return (
     <Layout>
       <Head>
-        <title>My projects</title>
+        <title>Handyman</title>
       </Head>
-      <h1>Welcome to my projects page!</h1>
+      <h1>Coming soon!</h1>
 
     </Layout>
   );
