@@ -1,5 +1,5 @@
 .container {
-    max-width: 36rem;
+    max-width: 3rem;
     padding: 0 1rem;
     margin: 3rem auto 6rem;
   }
@@ -9,13 +9,6 @@
     flex-direction: column;
     align-items: center;
   }
-  
-  /* .header {
-    font-weight: 300;
-    line-height: 150%;
-    padding: 0 30px;
-    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0)
-  } */
 
   .backToHome {
     margin: 3rem 0 0;
@@ -34,3 +27,10 @@
     z-index: 999;
     will-change: left;
   }
+
+  .side {
+    margin-bottom: '10px';
+    width: '16.666%';
+    float: 'left';
+    padding: '10px';
+  }; 

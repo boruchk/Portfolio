@@ -1,10 +1,10 @@
 import Head from 'next/head';
 import Image from 'next/image';
+import Link from 'next/link';
+import SideNav from './SideNav';
 import styles from './layout.module.css';
 import utilStyles from '../styles/utils.module.css';
-import Link from 'next/link';
 
-import LeftNav from './LeftSideNav';
 import 'bootstrap/dist/css/bootstrap.css'
 
 const name = 'Boruch Khazanovich';
@@ -13,7 +13,7 @@ export const siteTitle = "Boruch's Portfolio with Next.js";
 
 export default function Layout({ children, home }) {
   let items = [
-    'About',
+    'Home',
     'Experience',
     'Projects',
     'Skills',
@@ -21,28 +21,20 @@ export default function Layout({ children, home }) {
     'Contact',
     'Resume'
   ]
-  const handleSelectItem = (items = string) => {
-    console.log("hello");
-  }
 
   return (
     <>
-      {/* <LeftNav 
-      className="side-nav fixed section table-of-contents" 
-      items={items} 
-      heading = {sideNavName} 
-      onSelectItem={handleSelectItem}
-    /> */}
-      <nav>
-        hello
-      </nav>
-      <div className={styles.container}>
+      <div>
+        <SideNav items={items}> </SideNav>
+      </div>
         <Head>
           <link rel="icon" href="/images/compchip.jpeg" />
         </Head>
+        <div>
         <header className={styles.header}>
           {home ? (
             <>
+              
               <Image
                 priority
                 src="/images/profile.jpg"
@@ -52,7 +44,7 @@ export default function Layout({ children, home }) {
                 alt=""
               />
               <h1 className={utilStyles.heading2Xl}>{name}</h1>
-
+              
             </>
           ) : (
             <>

@@ -3,7 +3,6 @@
 // You can use this component to keep state when navigating between pages, or to add global styles as we're doing here. Learn more about _app.js file.
 
 import '/styles/global.css';
-// import '/styles/sidebars.css';
 
 export default function App({ Component, pageProps }) {
     return <Component {...pageProps} />;
