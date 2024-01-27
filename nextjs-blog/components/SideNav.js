@@ -11,7 +11,7 @@ function SideNav({ items, heading, onSelectItem }, navProps) {
                 <h1>{heading}</h1>
                 {items.map((item, index, onSelectItem) => (
                     <button
-                        class={
+                        className={
                             selectIndex === index
                                 ? "container active"
                                 : "container"
