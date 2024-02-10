@@ -1,2 +1,2 @@
 # Portfolio
-My portfolio of all of my projects
+About me and my projects
